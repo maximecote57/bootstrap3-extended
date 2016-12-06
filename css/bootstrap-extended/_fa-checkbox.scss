@@ -1,0 +1,13 @@
+input[type=checkbox] {
+    display: none;
+    &+ label:before{
+        content: "\f096";
+        display: inline-block;
+        vertical-align: middle;
+        width: 1em;
+        font-family: FontAwesome;
+    }
+    &:checked + label:before{
+        content: "\f046";
+    }
+}
