@@ -1,11 +1,11 @@
-/**
+/*
  * This is to vertical align an item when it's the only item in the row
  * We prepend a fake item to the parent using the 'pseudo' selector and set it's display to inline-block
  * Then, on the item we want vertically aligned, we set it's display to inline-block too and vertical-align to middle
  * It will vertically align correctly to the fake pseudo-element
- */
+*/
 
-.single-item-vertical-align{
+.single-item-vertical-align {
     &__parent{
         &:before{
             content: '';

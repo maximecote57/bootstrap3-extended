@@ -1,8 +1,8 @@
-/**
+/*
  * This is to vertical align items that were laid out using col widths
  * We just remove the float, set their display to inline-block, add a negative margin to fix the inline-block white-space issue
  * And then we add modifiers depending on what vertical alignment we want
- */
+*/
 
 .col-vertical-align {
     display: inline-block;
