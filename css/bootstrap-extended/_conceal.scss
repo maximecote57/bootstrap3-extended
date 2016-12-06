@@ -1,0 +1,7 @@
+/*
+ * This is just to hide an element without '!important', as Bootstrap 3 only includes classes which will hide with the '!important' attribute
+*/
+
+.conceal {
+    display: none;
+}
