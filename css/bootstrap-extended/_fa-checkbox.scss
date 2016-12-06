@@ -1,4 +1,8 @@
-input[type=checkbox] {
+/*
+ * Better looking checkboxes, using 'before' pseudo element with Font Awesome icons
+*/
+
+.fa-checkbox {
     display: none;
     &+ label:before{
         content: "\f096";
