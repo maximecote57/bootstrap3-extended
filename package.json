@@ -1,0 +1,40 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "custom-gulp-sass-inheritance": "0.0.1",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-gzip": "^1.4.0",
+    "gulp-if": "^2.0.1",
+    "gulp-minify": "0.0.14",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-sass-inheritance": "^0.5.1"
+  },
+  "name": "bootstrap3-extended",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximecote57/bootstrap3-extended.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximecote57/bootstrap3-extended/issues"
+  },
+  "homepage": "https://github.com/maximecote57/bootstrap3-extended#readme",
+  "description": ""
+}
